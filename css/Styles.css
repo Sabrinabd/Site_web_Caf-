@@ -25,6 +25,47 @@ a {
   text-decoration: none;
 }
 
+p {
+  margin-bottom: 10px;
+}
+.container {
+  display: block;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.btn {
+  display: inline-block;
+  padding: 15px 25px;
+  border-radius: 30px;
+  background-color: rgba(51, 19, 39, 0.467);
+  color: white;
+  border: 0px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+  font-weight: 700px;
+  font-size: 17px;
+}
+.bm {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.btn:hover {
+  background-color: rgba(51, 19, 39, 0.8);
+}
+.my-20 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.btn-dark {
+  background-color: #222;
+}
+.btn-dark:hover {
+  background: white;
+  color: black;
+}
+
 /*header*/
 .header {
   background: #333;
@@ -63,11 +104,12 @@ a {
   height: 700px;
   background: url(../images/cafette.jpg) center center;
   background-size: cover;
+  text-align: center;
 }
 
 .vp-content {
-  max-width: 500px;
-  padding-top: 170px;
+  max-width: 600px;
+  padding-top: 150px;
   color: white;
   display: block;
   margin: auto;
@@ -75,4 +117,74 @@ a {
 
 .vp-content h1 {
   font-size: 50px;
+}
+.vp-content p {
+  line-height: 1.9em;
+  letter-spacing: 0.5px;
+  font-size: 18px;
+}
+
+.separator {
+  margin: 20px auto;
+  height: 10px;
+  width: 100px;
+  background: #111;
+}
+.features {
+  padding: 100px 0px 100px 0px; /*haut droite en bas a gauche*/
+  overflow: auto;
+  text-align: center;
+}
+/*features*/
+.feature {
+  float: left;
+  width: 50%;
+  color: #4a2e22;
+}
+
+/*person*/
+.person {
+  height: 500px;
+  background: url(../images/image2.jpg) center center/cover;
+}
+/*reservation*/
+.reservation {
+  padding: 100px 0px 100px 0px;
+  text-align: center;
+}
+
+/*where*/
+
+.where {
+  padding: 180px 0px 100px 0px;
+  overflow: auto;
+  min-height: 100vh;
+}
+.where-img {
+  float: left;
+  width: 45%;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+.where-text {
+  float: right;
+  width: 50%;
+}
+.underligne {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+}
+.chip {
+  display: inline-block;
+  text-align: center;
+  width: 35px;
+  border-radius: 100%;
+  background: #333;
+  color: white;
+}
+.chip-purple {
+  background: #be418c;
+}
+.chip-violet {
+  background: #8c5e24;
 }
