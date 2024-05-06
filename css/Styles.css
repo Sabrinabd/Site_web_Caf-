@@ -188,3 +188,31 @@ p {
 .chip-violet {
   background: #8c5e24;
 }
+
+/*Contact*/
+.contact {
+  padding: 180px 0px 100px 0px;
+  min-height: 100vh;
+}
+.container-contact {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.container-contact form label {
+  display: block;
+  font-weight: 700px;
+}
+
+.container-contact form input,
+textarea {
+  display: block;
+  width: 100%;
+  height: 40px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  font-size: 16px;
+}
+.container-contact form textarea {
+  min-height: 80px;
+}
