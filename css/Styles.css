@@ -101,7 +101,7 @@ p {
 
 /* vp (Acceuil)*/
 .vp {
-  height: 700px;
+  min-height: 700px;
   background: url(../images/cafette.jpg) center center;
   background-size: cover;
   text-align: center;
@@ -109,6 +109,7 @@ p {
 
 .vp-content {
   max-width: 600px;
+  padding: 20px;
   padding-top: 150px;
   color: white;
   display: block;
@@ -131,7 +132,7 @@ p {
   background: #111;
 }
 .features {
-  padding: 100px 0px 100px 0px; /*haut droite en bas a gauche*/
+  padding: 100px 20px 100px 20px; /*haut droite en bas a gauche*/
   overflow: auto;
   text-align: center;
 }
@@ -149,7 +150,7 @@ p {
 }
 /*reservation*/
 .reservation {
-  padding: 100px 0px 100px 0px;
+  padding: 100px 20px 100px 20px;
   text-align: center;
 }
 
